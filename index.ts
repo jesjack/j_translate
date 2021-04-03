@@ -29,6 +29,7 @@ export class translator {
       ]
     );
     this.spawns.push(spawn);
+    if(spawn.output[2].toString().length > 0) throw spawn.output[2].toString();
     return spawn.output[1].toString();
   }
 }

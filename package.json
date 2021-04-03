@@ -1,0 +1,24 @@
+{
+  "name": "j_translate",
+  "version": "1.0.0",
+  "description": "Modulo para traducir textos a distintos idiomas.",
+  "main": "build/index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "tsc && node build/index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesjack/j_translate.git"
+  },
+  "keywords": [
+    "translator"
+  ],
+  "author": "jesjack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesjack/j_translate/issues"
+  },
+  "homepage": "https://github.com/jesjack/j_translate#readme"
+}
