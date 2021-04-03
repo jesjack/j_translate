@@ -1,8 +1,8 @@
 {
-  "name": "@jesjack/ranslate",
-  "version": "1.0.0",
+  "name": "@jesjack/translate",
+  "version": "1.0.1",
   "description": "Modulo para traducir textos a distintos idiomas.",
-  "main": "build/index.js",
+  "main": "./build/index.js",
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
