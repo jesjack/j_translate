@@ -1,5 +1,5 @@
 {
-  "name": "j_translate",
+  "name": "@jesjack/ranslate",
   "version": "1.0.0",
   "description": "Modulo para traducir textos a distintos idiomas.",
   "main": "build/index.js",
