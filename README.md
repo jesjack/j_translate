@@ -8,8 +8,8 @@ Para usarse es necesario tener los siguientes requisitos:
 
 ## Modo de uso
 ```js
-const j_translator = require('j_translator');
-const Translator = new j_translator('python'); // Aquí se usará el comando python que tengas instalado, en ocasiones es python3
+const { translator } = require('@jesjack/translate');
+const Translator = new translator('python'); // Aquí se usará el comando python que tengas instalado, en ocasiones es python3
 
 Translator.translate(input_text, 'en'); // -> El texto traducido al idioma seleccionado.
 ```
