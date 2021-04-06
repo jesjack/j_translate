@@ -7,9 +7,9 @@ export class translator {
 
   /**
    * Inicializa la clase para empezar a traducir
-   * @param pyKey es el comando de python que usa tu ordenador para ejecutar python (aveces suele ser python3)
+   * @param pyKey es el comando de python que usa tu ordenador para ejecutar python (aveces suele ser python3), por defecto 'python'
    */
-  constructor(pyKey: string) {
+  constructor(pyKey = 'python') {
     this.pyKey = pyKey;
   }
 
@@ -19,7 +19,13 @@ export class translator {
    * @param target El lenguaje objetivo, por defecto ingles ('en')
    * @returns El string traducido
    */
-  translate(str: string, target = 'en'): string {
+  translate(str: string, target:
+    'en' | 'es' | 'german' | 'french' | 'fr' | 'chinense' | 'nl' | 'af' | 'sq' | 'az' | 'eu' | 'bs' |
+    'ca' | 'ny' | 'co' | 'hr' | 'da' | 'eo' | 'et' | 'fi' | 'fr' | 'gl' | 'de' | 'ht' | 'ha' |
+    'he' | 'hu' | 'id' | 'ga' | 'is' | 'it' | 'ku' | 'la' | 'latin' | 'lb' | 'lt' | 'lv' | 'mg' |
+    'ms' | 'mt' | 'mi' | 'no' | 'pt' | 'ro' | 'sm' | 'gd' | 'sn' | 'sk' | 'sl' | 'so' | 'st' |
+    'su' | 'sw' | 'sv' | 'tl' | 'tr' | 'uk' | 'uz' | 'cy' | 'fy' | 'xh' | 'yi' | 'yo' | 'zu'
+  = 'en'): string {
     let spawn = spawnSync(
       this.pyKey,
       [

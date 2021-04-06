@@ -9,9 +9,9 @@ const path_1 = __importDefault(require("path"));
 class translator {
     /**
      * Inicializa la clase para empezar a traducir
-     * @param pyKey es el comando de python que usa tu ordenador para ejecutar python (aveces suele ser python3)
+     * @param pyKey es el comando de python que usa tu ordenador para ejecutar python (aveces suele ser python3), por defecto 'python'
      */
-    constructor(pyKey) {
+    constructor(pyKey = 'python') {
         this.spawns = [];
         this.pyKey = pyKey;
     }
