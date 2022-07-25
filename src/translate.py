@@ -1,4 +1,5 @@
 import sys
+
 from deep_translator import GoogleTranslator
 
 '''

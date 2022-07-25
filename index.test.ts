@@ -1,5 +1,3 @@
-import { translator } from './index';
+import { tt } from './index';
 
-const Translator = new translator();
-
-console.log(Translator.translate('¡Hola mundo!', 'uk'));
+console.log(tt('¡Hola mundo!', 'uk'));
