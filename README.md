@@ -11,3 +11,6 @@ Para usarse es necesario tener los siguientes requisitos:
 import { tt } from './index';
 console.log(tt('¡Hola mundo!', 'uk'));
 ```
+
+### (Ultima actualización)
+Creo que ya no es necesario instalar el módulo __deep_translator__
